@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<!-- Melanie Dudas -->
+<!-- C00253245 -->
+
+<html>
+<head>
+<title>Close Contacts</title>
+
+
+<link rel="stylesheet" href="task1.css" type="text/css" />
+
+</head>
+
+<body>
+<form action="closeContacts.php" method="post">
+    <p>Please fill in this form to add a close contact.</p>
+    <hr>
+	<fieldset>
+	<div class="inputbox">
+	<label for="firstName" >First name:</label>
+	<input type="text" placeholder="Enter Name" name="firstName" id="firstName" required pattern="[A-Za-z .]+"title="Please enter alphanumric chars, dots and spaces only"/>
+	</div>
+	<div class="inputbox">
+	<label for="lastName" >Last name:</label>
+	<input type="text" placeholder="Enter Name" name="lastName" id="lastName" required pattern="[A-Za-z .]+"title="Please enter alphanumric chars, dots and spaces only"/>
+	</div>
+	<div class="inputbox">
+	<label for="phone">Phone Number:</label>
+	<input type="tel" id="phone" placeholder="Enter phone" name="phone" required/>
+	</div>
+	</fieldset>
+	
+	<!-- Submit button -->
+	<div>
+	<div class="myButton">
+	<input type="submit" value="submit" name="submit"/><br><br>
+	</div>
+	<div class="signin">
+	<a href="frontPage2.html">Main Menu</a>
+	</div>
+	</form>
+	</body>
+	</html>

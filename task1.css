@@ -1,0 +1,80 @@
+/*A linked CSS document */
+/*File name: Task1 */
+
+form {
+	margin: auto;
+	width: 600px;
+	height: 600px;
+	}
+
+input {
+	border: 1px solid #ccc; /*grey color*/
+	border-radius: 4px;
+	}
+
+input:focus {
+	background-color:  #ffffcc; /*yellow color*/
+	}
+
+input[type=submit] {
+	background-color: green;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	display: block;
+    margin: 30px auto 0 auto; 
+	}
+	
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc; /*grey color*/
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical; /*so that a user can't resize it outside of the form*/
+	}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+	}
+
+fieldset {
+	border-radius: 20px;
+	background-color: #f2f2f2; /*greyish white color*/
+	padding: 20px;
+	}
+
+
+.inputbox input {
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+	}
+	
+.inputbox label {
+	display: inline-block;
+	width: 100px;
+	}
+
+.inputbox{
+	padding: 20px;
+	}
+	
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
+/*main title of the page*/
+form h1 {
+	text-align: center;
+	}
+form p {
+	text-align: center;
+	}
